@@ -44,7 +44,7 @@ interface VenueDetailPageParams {
 }
 
 interface VenueDetailPageProps {
-  params: VenueDetailPageParams | Promise<VenueDetailPageParams>
+  params: Promise<VenueDetailPageParams>
 }
 
 export default async function VenueDetailPage({ params }: VenueDetailPageProps) {
